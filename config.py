@@ -8,7 +8,6 @@ ACTIONS = [
     "tidak_terdeteksi",
     ]
 
-# Teks yang ditampilkan di layar untuk tiap kelas
 DISPLAY_TEXT = {
     "halo": "Halo",
     "tolong": "Tolong",
