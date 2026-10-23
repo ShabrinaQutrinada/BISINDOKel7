@@ -1,14 +1,12 @@
 import os
 
 # ===== Daftar kelas (kata BISINDO) =====
-# "netral" adalah kelas latar: tangan diam/turun atau tidak sedang berisyarat.
-# Kelas ini penting agar sistem tidak menebak kata saat pengguna tidak berisyarat.
 ACTIONS = [
     "halo", "tolong", "terima_kasih", "maaf", "selamat_tinggal",
     "ya", "tidak", "sama_sama", "apa_kabar", "baik",
     "nama", "siapa", "makan", "minum", "selamat_pagi",
-    "netral",
-]
+    "tidak_terdeteksi",
+    ]
 
 # Teks yang ditampilkan di layar untuk tiap kelas
 DISPLAY_TEXT = {
@@ -27,7 +25,7 @@ DISPLAY_TEXT = {
     "makan": "Makan",
     "minum": "Minum",
     "selamat_pagi": "Selamat pagi",
-    "netral": "",
+    "tidak_terdeteksi": "",
 }
 
 # ===== Dataset =====
