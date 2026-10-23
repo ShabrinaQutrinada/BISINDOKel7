@@ -8,7 +8,7 @@ import config
 from utils import LandmarkExtractor, preprocess_frame, extract_keypoints, draw_landmarks
 
 
-KATA_YANG_DIREKAM = None
+KATA_YANG_DIREKAM = ["tidak_terdeteksi"]
 JEDA_DETIK = 2.0  
 
 
