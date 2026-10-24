@@ -1,4 +1,11 @@
-venv/
+# Python environment
+.venv/
 __pycache__/
 *.pyc
+.DS_Store
+
+# MediaPipe models
 models/*.task
+
+# Temporary datasets
+dataset_experiment/
